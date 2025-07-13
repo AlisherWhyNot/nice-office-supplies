@@ -1,5 +1,6 @@
-from products.models import Category, Comment, Product
 from rest_framework import serializers
+
+from products.models import Category, Comment, Product
 
 
 class CommentSerializer(serializers.ModelSerializer):
